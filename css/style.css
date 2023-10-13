@@ -1943,7 +1943,7 @@ a {
 }
 
 .bg-contain {
-  background-color: #b6ccd9;
+  background-color: #EEF9FF;
 }
 
 .star1 {
@@ -1981,6 +1981,14 @@ a {
 .padding1 {
   padding: 30px !important;
 }
+.owl-item{
+  padding: 35px !important;
+}
+.owl-dots button:focus{
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
 
 @media (max-width: 786px) {
   .padding1 {
@@ -1989,6 +1997,10 @@ a {
     padding-top: 10px !important;
     padding-bottom: 10px !important;
   }
+
+  .owl-item{
+  padding: 20px !important;
+}
 }
 
 .img-text h1 {
@@ -2084,14 +2096,38 @@ a {
   top: 40px;
 
 }
-
-.bgFixed {
-  background: url('../images/bgf2.jpg');
+ 
+.bgFixed{
+  background: url('../images/fixedbg.jpg');
   background-attachment: fixed;
   background-size: cover;
-  height: 100vh;
+  background-repeat: no-repeat;
+  height: 60vh;
 }
+.fixedtext{
+  
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+  
+}
+.fixedtext h2{
+  color: black;
+  font-weight: 800;
+      font-family: "Exo", sans-serif;
+}
+.fixedtext button{
+  background-color:#29c29b ;
+  width: 250px;
+  border-radius: 30px;
+  padding: 8px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
 
-.appBtn {
-  width: fit-content;
 }
+.fixedtext button:hover{
+  background-color:#223A66;
+  transition: 0.3s;
+
+}
+ 
