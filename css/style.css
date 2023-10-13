@@ -1906,3 +1906,9 @@ border-right: 0px solid transparent;
   top: 40px;
 
 }
+.bgFixed{
+  background: url('../images/bgf2.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
